@@ -1,4 +1,6 @@
-# Project Task Manager
+# Demo Project Task Manager
+
+Test Project to illustrate the use of git and data as code to manage projects in AEC
 
 This project provides a set of Python scripts to generate, visualize, and manage tasks in Markdown files for architectural projects. Each Markdown file represents a project and contains tasks with attributes such as start and end dates, descriptions, deliverables, and milestones. The project includes tools for generating sample project data, creating timeline graphics, inserting images into Markdown files, editing tasks through a simple graphical user interface (GUI), and generating a summary report of tasks with specific deliverables.
 
