@@ -26,12 +26,6 @@ Here's a demo video showcasing the features of the Project Task Manager:
    git clone https://github.com/magnetar-io/demo_tasks_as_code.git
    \`\`\`
 
-2. Navigate to the project directory:
-   \`\`\`
-   cd project-task-manager
-   \`\`\`
-
-
 ## Usage
 
 1. **Generate Sample Projects**:
