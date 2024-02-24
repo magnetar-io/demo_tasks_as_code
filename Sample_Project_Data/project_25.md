@@ -10,13 +10,11 @@ A historic building renovation preserving architectural heritage.
 [
     {
         "id": 0,
-        "start_date": "2024-02-25",
-        "end_date": "2024-03-04",
-        "description": "Conduct a client review meeting.",
-        "deliverables": [
-            "Estimations"
-        ],
-        "milestone": "Project Completion",
+        "start_date": "2024-03-25",
+        "end_date": "",
+        "description": "",
+        "deliverables": "",
+        "milestone": "",
         "dependencies": []
     },
     {
