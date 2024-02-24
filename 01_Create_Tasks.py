@@ -46,6 +46,21 @@ def generate_random_milestones():
     ]
     return random.choice(milestones)
 
+def generate_project_description():
+    descriptions = [
+        "A modern office building with sustainable design features.",
+        "A residential high-rise with a focus on community living spaces.",
+        "A mixed-use development combining retail, office, and residential units.",
+        "A cultural center with galleries, performance spaces, and educational facilities.",
+        "A waterfront development with public parks and recreational areas.",
+        "A healthcare facility designed for patient comfort and efficiency.",
+        "An educational campus with state-of-the-art learning environments.",
+        "A transportation hub integrating multiple modes of transit.",
+        "A historic building renovation preserving architectural heritage.",
+        "An urban redevelopment project revitalizing a downtown area."
+    ]
+    return random.choice(descriptions)
+
 def generate_task(task_id):
     # Randomly generate a duration between 1 and 10 days
     duration = random.randint(1, 10)
@@ -68,7 +83,18 @@ def generate_task(task_id):
     return task
 
 def generate_project(project_id, num_tasks):
-    project = {"id": project_id, "tasks": []}
+    project_name = f"Project {project_id}"
+    project_number = f"PJ{str(project_id).zfill(4)}"
+    project_description = generate_project_description()
+
+    project = {
+        "id": project_id,
+        "name": project_name,
+        "number": project_number,
+        "description": project_description,
+        "tasks": []
+    }
+
     for i in range(num_tasks):
         task = generate_task(i)
         # Randomly assign dependencies
@@ -88,11 +114,15 @@ def main():
 
     for i in range(num_projects):
         project = generate_project(i, tasks_per_project)
-        file_path = os.path.join(output_folder, f"project_{i}.json")
+        file_path = os.path.join(output_folder, f"project_{i}.md")
         with open(file_path, 'w') as f:
-            json.dump(project, f, indent=4)
+            f.write(f"# {project['name']} ({project['number']})\n\n")
+            f.write(f"## Description\n\n{project['description']}\n\n")
+            f.write("## Tasks\n\n```json\n")
+            json.dump(project['tasks'], f, indent=4)
+            f.write("\n```")
 
-    print(f"Generated {num_projects} project files with {tasks_per_project} tasks each in '{output_folder}'")
+    print(f"Generated {num_projects} Markdown files with {tasks_per_project} tasks each in '{output_folder}'")
 
 if __name__ == "__main__":
     main()
