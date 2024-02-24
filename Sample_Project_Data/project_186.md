@@ -10,14 +10,11 @@ A residential high-rise with a focus on community living spaces.
 [
     {
         "id": 0,
-        "start_date": "2024-03-27",
-        "end_date": "2024-04-01",
-        "description": "Update the construction drawings.",
-        "deliverables": [
-            "Plans",
-            "Estimations"
-        ],
-        "milestone": "Construction Documents",
+        "start_date": "2024-05-28",
+        "end_date": "2025-01-01",
+        "description": "",
+        "deliverables": "",
+        "milestone": "",
         "dependencies": []
     },
     {
