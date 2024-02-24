@@ -13,8 +13,7 @@ This project provides a set of Python scripts to generate, visualize, and manage
 
 1. Clone the repository:
    \`\`\`
-   git clone https://github.com/your-username/project-task-manager.git
-   \`\`\`
+   git clone https://github.com/magnetar-io/demo_tasks_as_code.git
 
 2. Navigate to the project directory:
    \`\`\`
