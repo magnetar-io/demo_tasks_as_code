@@ -16,7 +16,7 @@ Here's a demo video showcasing the features of the Project Task Manager:
 
 ## Demo Video
 
-[![Watch the video](hhttps://i9.ytimg.com/vi/ugis3wjxtxE/mq2.jpg)](https://youtu.be/ugis3wjxtxE)
+[![Watch the video](https://i9.ytimg.com/vi/ugis3wjxtxE/mq2.jpg)](https://youtu.be/ugis3wjxtxE)
 
 
 ## Installation
