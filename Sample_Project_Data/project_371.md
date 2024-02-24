@@ -1414,3 +1414,7 @@ A historic building renovation preserving architectural heritage.
     }
 ]
 ```
+
+## Timeline
+
+![Timeline](project_371.png)

@@ -1409,3 +1409,7 @@ An urban redevelopment project revitalizing a downtown area.
     }
 ]
 ```
+
+## Timeline
+
+![Timeline](project_344.png)
