@@ -28,10 +28,6 @@ Here's a demo video showcasing the features of the Project Task Manager:
    cd project-task-manager
    \`\`\`
 
-3. Install the required dependencies:
-   \`\`\`
-   pip install -r requirements.txt
-   \`\`\`
 
 ## Usage
 
