@@ -14,7 +14,7 @@ This project provides a set of Python scripts to generate, visualize, and manage
 
 Here's a demo video showcasing the features of the Project Task Manager:
 
-![Demo Video](06_Demo_Video.mp4)
+![Demo Video](https://github.com/magnetar-io/demo_tasks_as_code/blob/main/06_Demo_Video.mp4)
 
 ## Installation
 
